@@ -1,0 +1,3 @@
+[submodule "plutoframework"]
+	path = plutoframework
+	url = https://github.com/rostislavlitovkin/plutoframework

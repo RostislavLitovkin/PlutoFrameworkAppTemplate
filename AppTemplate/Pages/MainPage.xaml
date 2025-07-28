@@ -56,18 +56,6 @@
 
                     <address:PolkadotAddressView />
 
-                    <address:SubstrateAddressView />
-
-                    <referenda:ReferendaView />
-
-                    <identity:IdentityView />
-
-                    <nft:NftFavouriteGalleryView />
-                    
-                    <nft:NftOwnedGalleryView />
-
-                    <nft:NftOwnedListView />
-
                 </VerticalStackLayout>
             </ScrollView>
         </RefreshView>

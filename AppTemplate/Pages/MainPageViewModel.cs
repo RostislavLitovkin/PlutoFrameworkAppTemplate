@@ -15,7 +15,7 @@ namespace AppTemplate.Pages
         public Task QrAsync() => Shell.Current.Navigation.PushAsync(new UniversalScannerPage { OnScannedMethod = OnScanned });
 
         [RelayCommand]
-        public Task Settings() => Shell.Current.Navigation.PushAsync(new SettingsPage());
+        public Task SettingsAsync() => Shell.Current.Navigation.PushAsync(new SettingsPage());
 
         [ObservableProperty]
         private bool isRefreshing = false;
